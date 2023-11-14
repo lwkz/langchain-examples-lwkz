@@ -1,0 +1,40 @@
+{
+  "name": "langchain-examples-lwkz",
+  "version": "1.0.0",
+  "description": "LangChain Examples",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "dev": "ts-node --esm ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lwkz/langchain-examples-lwkz.git"
+  },
+  "author": "Liwen Knight-Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lwkz/langchain-examples-lwkz/issues"
+  },
+  "homepage": "https://github.com/lwkz/langchain-examples-lwkz#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "jsdom": "^22.1.0",
+    "langchain": "^0.0.182-rc.1",
+    "openai": "^4.16.1",
+    "playwright": "^1.39.0",
+    "serpapi": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.5",
+    "@types/node": "^20.8.10",
+    "csv-parse": "^5.5.2",
+    "eslint": "^8.53.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "zod": "^3.22.4"
+  }
+}

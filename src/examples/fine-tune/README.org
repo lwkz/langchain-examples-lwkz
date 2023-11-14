@@ -1,0 +1,29 @@
+* Fine-tune OpenAI models
+** Working with OpenAI API w/ =curl=
+   #+begin_src shell
+     curl https://api.openai.com/v1/models -H "Authorization: Bearer sk-XXXXXX"
+     curl -X "DELETE" https://api.openai.com/v1/models/ft:gpt-3.5-turbo-0613:XXXXXX -H "Authorization: Bearer sk-XXXXX"
+   #+end_src
+
+   #+begin_src shell
+     -----BEGIN PGP MESSAGE-----
+
+     hQIOAxdwc3QWykEfEAf/f4dNYh3JG8tH4Zx/5Ru4ssBBbUP053jRtww0ZIl6zrbf
+     pyuOlaS6yHOeEv271YHRDTvfNHN9peEGZ6+iiURX7Yk5OCcscug0upZcR1tXVO2q
+     bp52fJ+Jm+D4JZ3sD6aQinEY4zt/dwNHJeDVOtxL/hIn++hFP0Inze75EMumdrIF
+     +jlplSKUHvwAtzYntEbYIPzrQEjrLpHOiFQZIBuCWn/ZYI4rxCxF6m05wC7/+HXm
+     pb94vOL5167XUWsIPdfgMFXcOddIYWOytRSbkSRab8tBX92sn6F179FfA6nKs9xv
+     VurSvkuMcbhIVl+ko0qzLBYGYNswjxzDjiNOGtrtBAf+N8lTu2llcdwe5TVcrW+H
+     yNwZLlpcGKcRyDwyXNiQi9/df7p2CDN/mGMu+OF6GPZoPDbRrarGwyqEL9/rb37E
+     N7QwQKitZIXxO7QEwojB067gh3PPEHrrqxJSz8uDSs+NZuEYXfz6sjEHmFfj80Rq
+     uP8GiOlYrdEzEk4zxYMtyZ+NWUweiEUMG7TjXtVrbSD0NBN0Ura9AcsGUiG9SiKO
+     NveuWA1KLXvFAk/eQAMWFMm0tiLjZTAQm/5LtLaBs9ythPC5uifqHMJePgfFbjLe
+     Dm4pixD0+kKF2wRvY+SGeBld6LLP78q5Eis+cJ8Lr+sws9ekph5AZ6PwYOH1h3d5
+     4NLAJwFAergSBceGkTejyX+XqXZMmerRhIXAdgXqWVjeTpC7/bnp03+Y8B0cw0N1
+     Em9/t2+zMwYbCkkPPq5g4LocdEyeqc2W4bExTObXq8sQoCPzIKFe39/Cc8EFeJG9
+     Nm/R3/isp+7kBeWaTj/H5E9F2MOBpnB2uxYe/3w8phF3MaNN/dijRHKP6bLJjS9Q
+     8XZIa6ma08etWwn1QZHcF3EeNccHMbhxnfEMq7IDSYp4SKrEco3N7p7WPp4bM9fX
+     gxJ8t7LtL/lRWELFgRSQLgqyzXTou5wvOJs+yy+/K2EikXYGgy3216zCBg==
+     =pN3T
+     -----END PGP MESSAGE-----
+   #+end_src

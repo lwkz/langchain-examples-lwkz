@@ -1,5 +1,5 @@
-import { LLMChainExampleOpenAI } from "./examples/LLMChainExampleOpenAI.ts"
-LLMChainExampleOpenAI();
+// import { LLMChainExampleOpenAI } from "./examples/LLMChainExampleOpenAI.ts"
+// LLMChainExampleOpenAI();
 
 // import { ChatExampleAzureOpenAI } from "./examples/ChatExampleAzureOpenAI.ts"
 // ChatExampleAzureOpenAI();
@@ -76,3 +76,6 @@ MemoryExample();
 
 // import { FineTuneOpenAI } from "./examples/fine-tune/FineTuneOpenAI.ts";
 // FineTuneOpenAI();
+
+import { VisionExample } from "./examples/VisionExample.ts";
+VisionExample();
